@@ -75,8 +75,9 @@ body {
 
 hr {
   box-sizing: content-box;
-  height: 0;
+  height: 2px;
   overflow: visible;
+  color: #121221;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -3992,6 +3993,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  margin-left: 43%;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -6133,7 +6135,8 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #fff !important;
+  padding: 5%;
 }
 
 a.bg-light:hover, a.bg-light:focus,
