@@ -2,36 +2,47 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.logo {
+    margin-left: -15%;
+}
+
 .present_car {
-    width: 500px;
-    height: 230px;
+    width: 285px;
+    height: 130px;
+    margin-left: 10%;
 }
 
 .present_h3 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 34px;
+    font-size: 18px;
     text-transform: uppercase;
-    line-height: 40px;
+    line-height: 22px;
     font-weight: 600;
-    letter-spacing: 1px;
     text-align: center;
+    width: 100%;
 }
 
 .present_p {
     font-weight: 600;
     text-align: center;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0px;
     line-height: 1.8;
     text-transform: none;
     color: #5b5b5b;
+    width: 100%;
 }
 
 .present_h2 {
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    font-size: 34px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 1.4;
@@ -39,6 +50,7 @@
     color: #d3ad2b;
     text-align: center;
     margin-bottom: 5%;
+    width: 100%;
 }
 
 .present_span {
@@ -58,46 +70,68 @@
 }
 
 .container_gallery {
-    width: 100%;
-    padding-right: 10%;
-    padding-left: 10%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: -10%;
-}
-
-.container_mobile {
     display: none;
 }
 
-.container p {
-    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 0px;
-    line-height: 1.8;
-    text-transform: none;
-    color: #5b5b5b;
+.container_mobile {
+    width: 100%;
 }
 
 .col_center {
     text-align: center;
     width: 100%;
 }
-p.margin-bottom {
+
+.naocare_1 {
+    width: 300px;
+    height: 200px;
+}
+
+.bioptron_1 {
+    width: 300px;
+    height: 200px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.nagrade {
+    width: 300px;
+    height: 200px;
+}
+
+.container p {
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.8;
+    text-transform: none;
+    color: #5b5b5b;
+    text-align: center;
+}
+
+.automobil img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30%;
+}
+
+p.margin-bottom {
+    text-align: center;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0px;
     line-height: 1.8;
     text-transform: none;
     color: #5b5b5b;
     margin-bottom: 15%;
+    width: 100%;
 }
 
 p.masterpiece_posudje {
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 1.4;
@@ -105,18 +139,20 @@ p.masterpiece_posudje {
     color: #000000;
     text-align: center;
     padding: 0;
+    width: 100%;
 }
 
 p.justify {
-    text-align: justify;
+    text-align: center;
     font-weight: 600;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0px;
     line-height: 1.8;
     text-transform: none;
     color: #5b5b5b;
+    width: 100%;
 }
 
 p.napomena {
@@ -130,6 +166,7 @@ p.napomena {
     text-transform: none;
     color: #5b5b5b;
     margin-top: 5%;
+    width: 100%;
 }
 
 
@@ -137,12 +174,16 @@ span.golden {
     color: #d3ad2b;
 }
 
+
 .therapy_air {
-    margin-left: 15%;
+    margin-left: 10%;
+    width: 300px;
+    height: 170px;
 }
 
 .nagrade {
-    margin-left: -3%;
+    width: 400px;
+    margin-left: 1.5%;
 }
 
 .automobil {
@@ -159,15 +200,15 @@ span.golden {
 
 .automobil h1 {
     position: absolute;
-    top: 35%;
-    left: 38.5%;
-    font-size: 100px;
+    top: 80%;
+    left: 1%;
+    font-size: 40px;
 }
 
 .automobil h2 {
     position: absolute;
-    top: 28%;
-    left: 38%;
+    top: 20%;
+    left: 1%;
     color: #121212;
 }
 
@@ -175,9 +216,13 @@ footer {
     width: 100%;
     text-align: center;
     padding: 6%;
-    background-color: rgba(91, 91, 91, 0.3);
+    background-color: rgba(91, 91, 91, 0);
 }
 
 footer img {
     padding: 10px;
+}
+
+nav {
+    width: 300px;
 }
