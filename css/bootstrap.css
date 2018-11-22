@@ -75,9 +75,8 @@ body {
 
 hr {
   box-sizing: content-box;
-  height: 2px;
+  height: 0;
   overflow: visible;
-  color: #121221;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -550,8 +549,6 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -3993,7 +3990,6 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
-  margin-left: 43%;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -6135,8 +6131,9 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #fff !important;
-  padding: 5%;
+  background-color: #f8f9fa !important;
+  width: 100%;
+  text-align: center;
 }
 
 a.bg-light:hover, a.bg-light:focus,
