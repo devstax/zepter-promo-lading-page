@@ -9,7 +9,6 @@ Goals: Informational text + pictures / No sign-ups
 Responsive: 
 -Desktop
 -Smaller Devices / Phones
-
-Comming Soon:
-- iPad
-- Bigger devices
+-iPad 
+-Laptop
+ 
